@@ -5,7 +5,7 @@ const fetch = require("node-fetch");
 const app = express();
 app.use(express.json());
 
-const CLICKUP\_TOKEN = "pk\_42977582\_SID0A4XAF5BMA4E9IFT254KJGFK01C5F";
+const CLICKUP_TOKEN = "pk_42977582_SID0A4XAF5BMA4E9IFT254KJGFK01C5F";
 const DEFAULT\_LIST\_ID = "901305833574"; // Lista INBOX
 const SPACE\_ID = "90131308758";
 
