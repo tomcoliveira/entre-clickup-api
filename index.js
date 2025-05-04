@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 const app = express();
 app.use(express.json());
 
-const CLICKUP_TOKEN = "pk_42977582_SID0A4XAF5BMA4E9IFT254KJGFK01C5F";                                                            
+const CLICKUP_TOKEN = process.env.CLICKUP_TOKEN;                                                                               
 const DEFAULT_LIST_ID = "901305833574"; // Lista INBOX
 const SPACE_ID = "90131308758";
 
